@@ -24,8 +24,7 @@ nupkg/
 [Rr]eleases/
 x64/
 x86/
-build/
-bld/
+b
 [Bb]in/
 [Oo]bj/
 [Oo]ut/
