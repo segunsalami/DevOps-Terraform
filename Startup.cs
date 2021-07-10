@@ -45,7 +45,7 @@ namespace weatherapi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            });asdas
         }
     }
 }
