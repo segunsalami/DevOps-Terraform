@@ -36,7 +36,7 @@ stages:
         deploy:
           steps:
           - script: |
-              #!/bin/bash
               echo "Content-type: text/html"
               echo ""
               echo "hello world! from shell script"
+              
