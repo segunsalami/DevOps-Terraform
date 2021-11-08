@@ -36,4 +36,4 @@ stages:
         deploy:
           steps:
           - script: |
-              echo "Downloaded"
+              /bin/bash /blue_green_weightage.sh
