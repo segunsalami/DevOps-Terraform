@@ -18,8 +18,6 @@ stages:
           steps:
           - script: |
               echo "Downloading the source code from Azure blob storage container to the Azure VM..."
-              az storage blob download --account-name mydemoaccount001 --container-name application-container --name test-application.zip --file /opt/test-application
-              echo "Extracting the source code and setting up the application to the Azure VM..."
 - stage: Deploy_TM
   displayName: TM update weight stage
   jobs:
@@ -38,4 +36,4 @@ stages:
         deploy:
           steps:
           - script: |
-              /bin/bash /opt/test-application/scripts/blue_green_weightage.sh
+              echo "Downloaded"
