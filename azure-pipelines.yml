@@ -39,8 +39,7 @@ stages:
               #!/bin/bash
               set -euo pipefail
 
-              curr_user="$(id -u -n)"
-              echo "User=${curr_user}"
+              
               echo "Home=$HOME"
 
               azure_resource_group="bv-bluegreen"
